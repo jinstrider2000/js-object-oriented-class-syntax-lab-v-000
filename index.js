@@ -27,9 +27,6 @@ class BoardMember {
 }
 
 class Ceo extends BoardMember {
-  constructor(name,homeState,training) {
-    super.constructor(name,homeState,training);
-  }
 
   hireEmployee() {
     return "Welcome aboard!";
